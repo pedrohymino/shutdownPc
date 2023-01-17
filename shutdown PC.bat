@@ -19,7 +19,7 @@ echo. &
 <nul set /p=""
 
 call :PainText 03 "[30] "
-call :PainText 07 " 30 mins"
+call :PainText 07 " 30 minutes"
 echo. &
 
 call :PainText 0D "[1] "
@@ -117,7 +117,7 @@ if %choice% == 30 (
 	call :PainText 09 "----------------------------------"
   echo. &
   call :PainText 09 " You choose to shutdown in"
-  call :PainText 06 " 30 min"
+  call :PainText 06 " 30 minutes"
   echo. &
   call :PainText 09 "----------------------------------"
 	echo. &
